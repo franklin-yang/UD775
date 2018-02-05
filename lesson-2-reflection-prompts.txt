@@ -10,15 +10,24 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
-	
+	Check that only certain files are changed, can check with diff
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	
+	When I want to make alternate versions of my game/changes that aren’t considered official updates.  Branches help keep them organized and separate.
 
 How do the diagrams help you visualize the branch structure?
+
+	easy to see parents, confirm reachability	
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	The code is combined.  It shows convergence.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+	pro: quick and easy, works heuristically (i.e. quick and good enough most of the time)
+	con: format is tricky
